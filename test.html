@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input type="text" placeholder="New Product" id="inputNewProduct"></td>
+        <td>
+            <button onclick="addNewProduct()">Add</button>
+        </td>
+        <td id="result"></td>
+    </tr>
+</table>
+</body>
+<script>
+    let arrProduct =[]
+
+    function addNewProduct() {
+        let inputString=document.getElementById("inputNewProduct").value;
+        let st=arrProduct.unshift(inputString)
+        document.getElementById("result").innerHTML=""+st
+    }
+</script>
+</html>
