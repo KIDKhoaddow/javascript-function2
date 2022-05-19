@@ -17,6 +17,8 @@ function checkTwoNumber(numb1,numb2){
 }
 result=0
 alert(result)
+
+
 function addNumbers() {
     let firstNum = 4;
     let secondNum = 8;

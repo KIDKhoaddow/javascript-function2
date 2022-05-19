@@ -9,7 +9,7 @@ function addNewProduct() {
 }
 
 function showNumberElement(){
-    document.getElementById("numberElement").innerText=""+arrProduct.length
+    document.getElementById("numberElement").innerText=""+arrProduct.length+"products"
 }
 
 
